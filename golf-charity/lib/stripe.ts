@@ -1,0 +1,1 @@
+﻿export const PLANS = { MONTHLY: { priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_MONTHLY || "fake_monthly", amount: 999 }, YEARLY: { priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_YEARLY || "fake_yearly", amount: 9999 } };

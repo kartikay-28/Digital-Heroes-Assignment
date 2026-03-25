@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-zinc-950 text-slate-200 font-instrument;
+  }
+  
+  /* Applying dark color scheme visually */
+  :root {
+    color-scheme: dark;
+  }
+}
